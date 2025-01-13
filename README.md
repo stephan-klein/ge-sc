@@ -1,3 +1,11 @@
+# About the Fork
+This project was forked from [Mando-Project](https://github.com/MANDO-Project/ge-sc) to evaluate the model independently (See https://github.com/stephan-klein/mlsc)
+
+It includes only minor infrastructural changes.
+
+List of changes:
+- Added [./sco_models/model_hgt.py] otherwise the graph_classifier would not run (it as a hardcoded dependency to it). I assume this file was deleted by accident when ge-sc-transformers(https://github.com/MANDO-Project/ge-sc-transformers) project was split-off
+
 # MANDO: Multi-Level Heterogeneous Graph Embeddings for Fine-Grained Detection of Smart Contract Vulnerabilities
 [![python](https://img.shields.io/badge/python-3.7.12-blue)](https://www.python.org/)
 [![slither](https://img.shields.io/badge/slither-0.8.0-orange)](https://github.com/crytic/slither)
